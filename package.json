@@ -1,0 +1,26 @@
+{
+  "name": "vue-slug",
+  "version": "0.1.0",
+  "description": "A Vue component for generating URIs/slugs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrhenderson1988/vue-slug.git"
+  },
+  "keywords": [
+    "vue",
+    "slug",
+    "component",
+    "input",
+    "form"
+  ],
+  "author": "Jonathon Henderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrhenderson1988/vue-slug/issues"
+  },
+  "homepage": "https://github.com/jrhenderson1988/vue-slug#readme"
+}
