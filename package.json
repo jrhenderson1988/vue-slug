@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/jrhenderson1988/vue-slug/issues"
   },
-  "homepage": "https://github.com/jrhenderson1988/vue-slug#readme"
+  "homepage": "https://github.com/jrhenderson1988/vue-slug#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.2",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1"
+  }
 }
