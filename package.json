@@ -4,7 +4,7 @@
   "description": "A Vue component for generating URIs/slugs",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config"
+    "build": "rm -rf ./dist && webpack --colors --hide-modules"
   },
   "repository": {
     "type": "git",
@@ -24,15 +24,21 @@
   },
   "homepage": "https://github.com/jrhenderson1988/vue-slug#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "cross-env": "^5.1.1",
-    "css-loader": "^0.28.7",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6",
-    "vue": "^2.5.2",
-    "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.3",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.8.1"
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "css-loader": "^0.23.1",
+    "postcss-load": "^0.1.6",
+    "style-loader": "^0.15.0",
+    "vue": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.4",
+    "vue-template-compiler": "^2.2.4",
+    "webpack": "^2.2.1"
   }
 }
