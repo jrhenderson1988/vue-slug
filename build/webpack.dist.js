@@ -18,11 +18,6 @@ const config = merge(base, {
   },
 
   plugins: [
-    new webpack.BannerPlugin({
-      banner: options.banner,
-      raw: true,
-      entryOnly: true
-    })
   ]
 })
 
