@@ -8,7 +8,8 @@
 <script>
     export default {
         props: {
-            input: String
+            input: String,
+            value: String
         },
         data() {
             return {
@@ -43,6 +44,7 @@
             }
         },
         mounted() {
+            this.slug = this.value;
             console.log('mounted');
         }
     }
