@@ -4,7 +4,10 @@
 
     <input type="text" v-model="name">
 
-    <vue-slug :input="name" value="this-is-a-test"></vue-slug>
+    <vue-slug :input="name" v-model="slug"></vue-slug>
+
+    <div style="margin: 20px 0 0 0;">{{ name }}</div>
+    <div>{{ slug }}</div>
   </div>
 </template>
 
@@ -18,7 +21,8 @@
     },
     data() {
       return {
-        name: 'This is a test'
+        name: 'This is a test',
+        slug: 'this-is-a-test'
       }
     },
     computed: {
